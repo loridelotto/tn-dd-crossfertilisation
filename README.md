@@ -1,6 +1,6 @@
-## Truncation and Variable Orders across Tensor Networks and Decision Diagrams
+# Truncation and Variable Orders across Tensor Networks and Decision Diagrams
 
-# *Introduction*
+## *Introduction*
 Tensor networks and tractable circuits are two data structures for the same objects:
 high-dimensional functions with real or complex weights. Physicists use matrix product states
 (tensor trains) and tree tensor networks; the verification and AI communities use decision diagrams
@@ -13,7 +13,7 @@ this truncation means on the decision diagram side, and how it relates to approx
 algorithms that come with rigorous guarantees, is not known. Conversely, decision diagrams enjoy
 canonical forms and a mature toolbox of variable reordering heuristics, whereas the tensor train
 community resorts to singular value decomposition and hand-tuned contraction orders.
-# *Project Goal*
+## *Project Goal*
 The student will take one or two of these open cross-fertilisation problems and settle them
 constructively. A first track is approximation: implement singular-value truncation on the decision
 diagram side via the translation of [a], characterise which reduction rule it corresponds to, and
